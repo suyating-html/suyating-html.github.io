@@ -168,10 +168,10 @@ h2 {
 
 }
 h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size:1.714rem;
     line-height: 2.5rem; 
-    color:#fff;
+    color: #94a3a5;
     font-weight: 400;
 }
 h4 {
@@ -543,6 +543,8 @@ input::-ms-input-placeholder {
 }*/
 /* navbar section */
 .menu-scroll {
+    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
@@ -556,8 +558,7 @@ input::-ms-input-placeholder {
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
-    height: 75px;
-
+    height: 70px;
 }
 .main_menu_bg{
     margin-top: 0px;
@@ -567,34 +568,26 @@ input::-ms-input-placeholder {
     background-color: transparent; 
     border-color: transparent; 
     transition: all .6s;
-    margin: 15px auto;
+    margin: 10px auto;
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+.navbar-default .navbar-navnavbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: #71b0f1;
     background: transparent;
 }
 .main_menu_bg .navbar {}
 
-.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #71b0f1;
-    padding-bottom: 22px;
-    border-bottom: 1px solid #71b0f1;
-    background: transparent;
-
-}
-
 .main_menu_bg .navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-transform: uppercase;
     font-size: 0.875rem;
-    color: #fff;
+    color: #ffffff;
 }
 .navbar-brand {
-    padding: 0px 15px;
+    padding: 0px 5px;
 }
 .navbar-brand>img {
-    max-width: 80%;
+    max-width: 150%;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -603,7 +596,7 @@ input::-ms-input-placeholder {
 }
 
 .dropdown-menu {
-    min-width: 160px;
+    min-width: 300px;
     padding: 0px;
     margin: 2px 0 0;
     font-size: 14px;
@@ -667,7 +660,7 @@ input::-ms-input-placeholder {
 }
 /*home section*/
 .home{
-    background: url(../images/m_homebg.jpg) no-repeat center center;
+    background: url(../images/bg.png) no-repeat center center;
     background-size: cover;
 }
 .home_skew_border{
@@ -819,6 +812,7 @@ input::-ms-input-placeholder {
     padding: 100px 0px 40px 0px;
     margin-bottom: 0px;
 }
+
 .main_service .head_title h2{
     margin-right: 12%;
     border-right: 6px solid #71B0F1;
@@ -827,7 +821,7 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service_img {
     position: relative;
-    height: 676px;
+    height: 440px;
 }
 .main_service .single_service_img img {
     width: 100%;
@@ -863,6 +857,7 @@ input::-ms-input-placeholder {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
+
 /*======================================================================
                     portfolio section css
 ========================================================================*/
@@ -1168,7 +1163,7 @@ button.btn-md:hover {
     left:0;
     bottom:0;
     content:"";
-    background: url(../images/teambg2.png) no-repeat bottom center;  
+    background: url(../images/teambg2.png) no-repeat bottom center;
 }
 .main_team ul li{
     text-align: center;
